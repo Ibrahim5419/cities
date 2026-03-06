@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import ExpenseTable from './components/ExpenseTable'; // Reusing your table component
 import Home from './components/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
 
 function App() {
   // State for different datasets
