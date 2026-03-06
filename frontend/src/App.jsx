@@ -39,9 +39,9 @@ return (
         <div className="container">
           <a className="navbar-brand fw-bold" href="/">Population Dashboard</a>
           <div>
-            <a className="btn btn-outline-light me-2" href="/ap">AP</a>
-            <a className="btn btn-outline-light me-2" href="/tg">TG</a>
-            <a className="btn btn-outline-light" href="/india">India</a>
+<Link className="btn btn-outline-light me-2" to="/ap">AP</Link>
+<Link className="btn btn-outline-light me-2" to="/tg">TG</Link>
+<Link className="btn btn-outline-light" to="/india">India</Link>
           </div>
         </div>
       </nav>
