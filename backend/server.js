@@ -10,13 +10,14 @@ app.use(express.json()); // Essential if you want to POST data later
 
 // Create a Connection Pool
 const pool = mysql.createPool({
-    host: 'localhost',
-    user: 'root',
-    password: '', 
-    database: 'finance',
-    waitForConnections: true,
-    connectionLimit: 10,
-    queueLimit: 0
+  host: "sql12.freesqldatabase.com",
+  user: "sql12819082",
+  password: "e79lxG3pSg",
+  database: "sql12819082",
+  port: 3306,
+  waitForConnections: true,
+  connectionLimit: 10,
+  queueLimit: 0
 });
 
 // Helper function to handle repeated query logic
