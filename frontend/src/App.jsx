@@ -16,9 +16,9 @@ function App() {
     const fetchAllData = async () => {
       try {
         const [apRes, tgRes, indiaRes] = await Promise.all([
-          fetch('http://localhost:5000/api/ap_cities').then(res => res.json()),
-          fetch('http://localhost:5000/api/tg_cities').then(res => res.json()),
-          fetch('http://localhost:5000/api/india_cities').then(res => res.json())
+          fetch('https://cities-3a5v.onrender.com/api/ap_cities').then(res => res.json()),
+          fetch('https://cities-3a5v.onrender.com/api/tg_cities').then(res => res.json()),
+          fetch('https://cities-3a5v.onrender.com/api/india_cities').then(res => res.json())
         ]);
 
         setApCities(apRes);
